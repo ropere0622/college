@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background:url(../images/bg.jpg) no-repeat 50% 0px;*/
+}
+
+
+#wrap{	
+    position:relative;
+	width: 100%;
+	height:auto;
+	margin:auto;
+}
+
+#toparea {
+	background-image: url(../images/topmenu.png);
+	height: 207px;
+	width: 100%;
+	min-width: 1200px;
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	position: relative;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo {
+	position: absolute;
+	height: 91px;
+	width: 268px;
+	top: 20px;
+	left: 20px;
+}
+.tlogo{
+	float:right;
+	width:268px;
+	height:91px;
+	cursor: hand;
+	background-image: url(../images/logo.png);
+	background-position: 0px 0px;
+}
+.tlogo:hover{
+	background-image: url(../images/logo.png);
+	opacity:0.5;
+	}
+
+/*menu*/
+.menubtn {
+	position: absolute;
+	top: -6px;
+	right: 44px;
+}
+.btn {
+	height: 53px;
+	width: 110px;
+	float: left;
+	margin-left: 19px;
+}
+
+.tbtn1 {
+	width:110px;
+	height:53px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn1.png);
+	}
+.tbtn1:hover{
+	background-image: url(../images/btn1.png);
+	opacity:0.5;
+	}
+.tbtn2 {
+	width:110px;
+	height:53px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn2.png);
+	}
+.tbtn2:hover{
+	background-image: url(../images/btn2.png);
+	opacity:0.5;
+	}
+.tbtn3 {
+	width:110px;
+	height:53px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn3.png);
+	}
+.tbtn3:hover{
+	background-image: url(../images/btn3.png);
+	opacity:0.5;
+	}
+.tbtn4 {
+	width:110px;
+	height:53px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn4.png);
+	}
+.tbtn4:hover{
+	background-image: url(../images/btn4.png);
+	opacity:0.5;
+	}
+.tbtn5 {
+	width:110px;
+	height:53px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn5.png);
+	}
+.tbtn5:hover{
+	background-image: url(../images/btn5.png);
+	opacity:0.5;
+	}
+.tbtn6 {
+	width:110px;
+	height:53px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn6.png);
+	}
+.tbtn6:hover{
+	background-image: url(../images/btn6.png);
+	opacity:0.5;
+	}
+/*menu結束*/
+
+/*content*/
+#content {
+	height: 1030px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#conbg {
+	position: relative;
+	background-image: url(../images/content1.png);
+	height: 1171px;
+	width: 1000px;
+	top:-131px;
+	z-index:-1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*content結束*/
+
+#footer{
+	position: absolute;
+	width: 100%;
+}
+
+#foot{
+	width: 800px;
+	margin: auto;
+	height: 40px;
+}
+#footer ul li {
+	float: left;
+}
+
+.copyrightc {
+	color: #FFFFFF;
+	font-size: 8px;
+	font-weight: bold;
+	line-height: 16px;
+}
+.copyrightm {
+	color: #FFFFFF;
+	font-size: 8px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 30px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
